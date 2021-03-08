@@ -8,17 +8,17 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=v2ray
-PKG_VERSION:=4.34.0
+PKG_VERSION:=4.35.1
 PKG_RELEASE:=1
 PKG_BUILD_DIR:=$(BUILD_DIR)/v2ray-core-$(PKG_VERSION)
 
 PKG_SOURCE:=v2ray-core-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/v2fly/v2ray-core/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=b250f569cb0369f394f63184e748f1df0c90500feb8a1bf2276257c4c8b81bee
+PKG_HASH:=ef469a99c7db8596f8556478b478e2701ce2783af9affb7f3cb28201718e7d35
 
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE
-PKG_MAINTAINER:=Xingwang Liao <kuoruan@gmail.com>
+PKG_MAINTAINER:=Ausaci <https://github.com/Ausaci/helloworld_Copy>
 
 PKG_CONFIG_DEPENDS:= \
 	CONFIG_V2RAY_EXCLUDE_V2CTL \
